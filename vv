@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Çizim Robotu G-code Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Çizim Robotu G-code Generator</h1>
+  
+  <input type="file" id="upload" accept="image/*">
+  <button id="convert">G-code Oluştur</button>
+  <a id="download" style="display:none;">G-code İndir</a>
+  
+  <svg id="preview" style="border:1px solid #ccc; width:300px; height:300px;"></svg>
+  
+  <script src="potrace.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
